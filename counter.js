@@ -8,19 +8,19 @@ var clear = document.getElementById('clear')
 var answer_value = 0;
 
 function increment () {
-  console.log('increasing', answer_value);
-  answer_value += 1;
-  setAnswerValue();
+    console.log('increasing', answer_value);
+    answer_value += 1;
+    setAnswerValue();
 }
 
 function decrement () {
-  console.log('decreasing', answer_value);
-  answer_value -= 1;
-  setAnswerValue();
+    console.log('decreasing', answer_value);
+    answer_value -= 1;
+    setAnswerValue();
 }
 
 function setAnswerValue () {
-  answer.innerHTML = answer_value;
+    answer.innerHTML = answer_value;
 }
 
 increase.addEventListener('click', increment);
