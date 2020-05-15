@@ -1,0 +1,14 @@
+-simple implementation of a counter with an increment decrement and clear button 
+increment and decrement function in counter.js
+clear function in clear.js
+
+-setting up eslintrc.json-including changes to existing rules:eslintrc.json
+-using eslint ignore file to exclude gulpfile:eslintignore
+-using commands to ignore files while linting:clear.js
+-using commands to ignore particular line in:counter.js
+-configuring a gulp file to run eslint task:gulpfile.js
+
+dependencies used:
+eslint
+gulp
+gulp-eslint
