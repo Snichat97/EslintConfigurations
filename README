@@ -1,3 +1,7 @@
+1.Run npm install in the root directory
+2.To run the gulp task you can use 'npx gulp lint'
+
+Implementation
 -simple implementation of a counter with an increment decrement and clear button 
 increment and decrement function in counter.js
 clear function in clear.js
